@@ -42,49 +42,47 @@ The dataset is provided as an **Excel (.xlsx) file**.
 ## 10. Contact
 For further details, refer to the **World Values Survey official website**: [www.worldvaluessurvey.org](https://www.worldvaluessurvey.org).
 
-## 1. Key Information on the Dataset
-The dataset used is from the World Values Survey (WVS) Wave 7 (2017-2022), which includes responses from individuals across multiple countries on various socio-economic and cultural topics between 2017 and 2022. The survey is designed to provide insights into people's beliefs, values, economic conditions, and overall well-being.
+# World Values Survey Dataset (Wave 7: 2017-2022)
 
-- Source: World Values Survey (www.worldvaluessurvey.org)
-- Years Covered: 2017-2022
-- File Format: CSV
-- Number of Respondents: 97,220
-- Survey Method: Face-to-face and online interviews
+## Overview
+The World Values Survey (WVS) is a global research project exploring people's values and beliefs, how they change over time, and what social and political impact they have. The dataset from Wave 7 covers the period from 2017 to 2022 and includes responses from numerous countries around the world.
 
-### 2. Dataset Files
-- `WVS_subset.csv` → Contains survey responses.
-- `WVS_codebook.pdf` → Provides variable definitions and coding structure.
+## Data Collection
+- **Survey Period**: 2017-2022
+- **Mode of Data Collection**:
+  - Computer-Assisted Personal Interviewing (CAPI)
+  - Paper-and-Pencil Interviewing (PAPI)
+  - Computer-Assisted Web Interviewing (CAWI)
+  - Mail/Post
+  - Computer-Assisted Telephone Interviewing (CATI)
+  - Web-based interview
 
-## Research Question
-> How does financial satisfaction impact overall happiness?
+## Dataset Structure
+- **Core Variables**: Family, friends, leisure time, politics, work, religion, happiness, and wellbeing.
+- **Social Capital, Trust, and Organizational Membership**: Trust in family, neighbors, strangers, and various institutions.
+- **Economic Values**: Perceptions on the economy, employment, and income.
+- **Perceptions of Corruption, Migration, and Security**: Views on government integrity, foreign workers, and personal safety.
+- **Political Participation and Culture**: Engagement in political activities and perceptions of governance.
+- **Demographics**: Information on respondents' age, gender, education, and socioeconomic status.
 
-To answer this question, we analyze self-reported happiness and financial satisfaction while accounting for additional socio-economic variables that may influence happiness.
+## Sample Size and Weighting
+- **Sample Size**: The number varies by country, with detailed demographic and socioeconomic weighting applied to ensure representativeness.
+- **Weight Variables**:
+  - W_WEIGHT: Adjusts for sociodemographic characteristics to match the distribution of the target population.
+  - S018 Equilibrated weight-1000: Makes the sample size of all countries equal to N=1000 for comparative analysis.
 
-### 3. Main Variables
-This analysis primarily focuses on Q46 (Happiness) and Q50 (Financial Satisfaction) but includes additional variables for a more comprehensive understanding.
+## Geographic Coverage
+- **Countries Included**: Over 100 countries across all inhabited continents.
+- **Country Codes**: ISO 3166-1 numeric and alpha-3 codes are used.
 
-- Q46 - Happiness: Measures subjective happiness (Scale: 1 = Very happy, 4 = Not at all happy).
-- Q50 - Financial Satisfaction: Measures financial well-being (Scale: 1 = Completely dissatisfied, 10 = Completely satisfied).
+## DOI and Version
+- **DOI**: [doi.org/10.14281/18241.24](https://doi.org/10.14281/18241.24)
+- **Version**: 6.0 (Data-file version as of 2022-05-31)
 
-### Additional Control Variables
-To improve the accuracy of our analysis, we include variables such as:
-- Q49 - Life Satisfaction (1-10 scale)
-- Q47 - Subjective Health (1-5 scale)
-- Q48 - Freedom of Choice and Control (1-10 scale)
-- Q260 - Age (Numeric)
-- Q261 - Gender (1 = Male, 2 = Female)
-- Q262 - Marital Status (1-5 categories)
-- Q263 - Education Level (1-8 scale)
-- Q264 - Employment Status (1-6 categories)
-- Q265 - Household Income (1-10 scale)
+## Usage and Citation
+This dataset is made available for academic research and policy analysis. Users are requested to cite the source appropriately in any publications or presentations that utilize this data.
 
-## 4. Descriptive Statistics
-To understand the dataset, we computed descriptive statistics for the five most important variables.
+## Contact Information
+For more information, visit the World Values Survey official website at [www.worldvaluessurvey.org](http://www.worldvaluessurvey.org).
 
-| Variable | Count | Mean | Std Dev | Min | 25% | Median | 75% | Max |
-|----------|--------|------|---------|-----|-----|--------|-----|-----|
-| Q46 - Happiness | 97,220 | 1.83 | 0.78 | -5 | 1 | 2 | 2 | 4 |
-| Q50 - Financial Satisfaction | 97,220 | 6.16 | 2.51 | -5 | 5 | 6 | 8 | 10 |
-| Q49 - Life Satisfaction | 97,220 | 7.01 | 2.34 | -5 | 6 | 7 | 9 | 10 |
-| Q47 - Health Status | 97,220 | 2.18 | 0.92 | -5 | 2 | 2 | 3 | 5 |
-| Q48 - Freedom of Choice | 97,220 | 7.13 | 2.41 | -5 | 6 | 7 | 9 | 10 |
+
