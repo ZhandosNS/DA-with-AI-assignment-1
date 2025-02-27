@@ -77,3 +77,14 @@ The World Values Survey (WVS) is a worldwide network of social scientists studyi
    - 2 = Fairly good  
    - 3 = Fairly bad  
    - 4 = Very bad  
+
+# 4. Descriptive Statistics
+To understand the dataset, we computed descriptive statistics for the five most important variables.
+
+| Variable | N     | Mean    | SD      | Median | Min  | Max  |
+|----------|-------|---------|---------|--------|------|------|
+| Q46      | 97220 | 1.8277  | 0.7832  | 2      | -5   | 4    |
+| Q49      | 97220 | 7.0123  | 2.3367  | 7      | -5   | 10   |
+| Q50      | 97220 | 6.1558  | 2.5105  | 6      | -5   | 10   |
+| Q54      | 97220 | 3.1472  | 1.1035  | 4      | -5   | 4    |
+| Q55      | 97220 | 3.6772  | 0.8869  | 4      | -5   | 4    |
