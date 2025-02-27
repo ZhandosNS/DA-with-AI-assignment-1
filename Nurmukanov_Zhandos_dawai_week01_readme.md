@@ -33,7 +33,7 @@ The World Values Survey (WVS) is a worldwide network of social scientists studyi
 # **Research Question:**  
 **How do economic security and financial satisfaction influence overall life satisfaction and happiness?**  
 
-## **Relevant Variables and Their Metrics:**  
+## **3. Relevant Variables and Their Metrics:**  
 
 1. **Q46** - Feeling of Happiness *(Ordinal, 4-point scale)*  
    - 1 = Very happy  
