@@ -36,31 +36,79 @@ The World Values Survey (WVS) is a worldwide network of social scientists studyi
 This study aims to explore the relationship between individuals' perceptions of corruption in their respective countries and their levels of political engagement. By analyzing responses from the World Values Survey (Wave 7: 2017-2022), we can assess whether corruption perception discourages or motivates political participation.
 
 ## 3. Key Variables
-Below are the key variables selected for this analysis:
+# Variable Measurement Scales
+
+Each variable in the dataset follows a specific measurement scale, such as categorical, ordinal, or numerical.
 
 1. **Q112 - Perceived Corruption in Government**  
-   - Respondents' perception of how widespread corruption is within their country's government.
+   - **Type:** Ordinal  
+   - **Scale:** Respondents rate government corruption on a scale (e.g., "Very corrupt" to "Not corrupt").  
+   - **Example Values:**
+     - 1 = Very corrupt  
+     - 2 = Fairly corrupt  
+     - 3 = Not very corrupt  
+     - 4 = Not corrupt at all  
 
 2. **Q199 - Voting in National Elections**  
-   - Whether the respondent participated in the most recent national election.
+   - **Type:** Binary (Categorical)  
+   - **Scale:** Whether the respondent has voted in the last national election.  
+   - **Example Values:**
+     - 1 = Yes  
+     - 2 = No  
 
 3. **Q234 - Participation in Lawful Demonstrations**  
-   - Captures whether the respondent has engaged in peaceful protests or demonstrations.
+   - **Type:** Binary (Categorical)  
+   - **Scale:** Indicates if the respondent has participated in peaceful protests.  
+   - **Example Values:**
+     - 1 = Yes  
+     - 2 = No  
 
 4. **Q71 - Confidence in the National Government**  
-   - Measures the level of trust respondents have in their government.
+   - **Type:** Ordinal  
+   - **Scale:** Level of trust in the national government.  
+   - **Example Values:**
+     - 1 = A great deal  
+     - 2 = Quite a lot  
+     - 3 = Not very much  
+     - 4 = None at all  
 
 5. **Q70 - Confidence in the Justice System**  
-   - Reflects trust in the fairness and effectiveness of the legal system.
+   - **Type:** Ordinal  
+   - **Scale:** Trust in the justice system.  
+   - **Example Values:**
+     - 1 = A great deal  
+     - 2 = Quite a lot  
+     - 3 = Not very much  
+     - 4 = None at all  
 
 6. **Q106 - Economic Situation of the Country**  
-   - Respondents' assessment of the current national economic conditions.
+   - **Type:** Ordinal  
+   - **Scale:** Respondents’ evaluation of the national economy.  
+   - **Example Values:**
+     - 1 = Very good  
+     - 2 = Rather good  
+     - 3 = Bad  
+     - 4 = Very bad  
 
 7. **Q260 - Education Level**  
-   - The highest level of education completed by the respondent, used as a control variable.
+   - **Type:** Ordinal  
+   - **Scale:** Highest level of education completed.  
+   - **Example Values:** *(Country-specific variations may exist)*
+     - 1 = No formal education  
+     - 2 = Primary education  
+     - 3 = Secondary education  
+     - 4 = University degree or higher  
 
 8. **Q279 - Age**  
-   - The age of the respondent, included as a demographic control.
+   - **Type:** Continuous (Numerical)  
+   - **Scale:** Age in years (exact value).  
+   - **Example Values:**  
+     - 18, 25, 40, 60, etc.
+
+## Notes:
+- **Ordinal variables**: Have an inherent order but the distance between categories is not necessarily equal (e.g., trust levels, economic perception).  
+- **Binary variables**: Represent a **yes/no** response (participation in voting or demonstrations).  
+- **Continuous variables**: Numeric values that can take any number within a range (e.g., age).  
 
 These variables allow for an in-depth analysis of how trust in institutions, economic perceptions, and demographic factors interact with political engagement in the context of perceived corruption.
 
