@@ -36,7 +36,6 @@ The World Values Survey (WVS) is a worldwide network of social scientists studyi
 This study aims to explore the relationship between individuals' perceptions of corruption in their respective countries and their levels of political engagement. By analyzing responses from the World Values Survey (Wave 7: 2017-2022), we can assess whether corruption perception discourages or motivates political participation.
 
 ## 3. Key Variables
-# Variable Measurement Scales
 
 Each variable in the dataset follows a specific measurement scale, such as categorical, ordinal, or numerical.
 
