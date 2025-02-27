@@ -21,3 +21,11 @@ The World Values Survey (WVS) is a worldwide network of social scientists studyi
 - **Political Interest and Participation**: Measures engagement in national and local political processes, including voting and activism.
 - **Religious Values**: Examines the role and impact of religious beliefs on personal and societal levels.
 - **Demographic and Socioeconomic Information**: Detailed demographic information such as age, gender, education, and income.
+
+## 2. File Paths
+
+### WVS Data File:
+`C:\Users\mrrai\OneDrive\Рабочий стол\CEU\DAwAI\WVS_subset.xlsx`
+
+### WVS Codebook:
+`C:\Users\mrrai\OneDrive\Рабочий стол\CEU\DAwAI\WVS_codebook.pdf`
