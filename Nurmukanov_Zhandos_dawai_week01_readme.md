@@ -29,3 +29,38 @@ The World Values Survey (WVS) is a worldwide network of social scientists studyi
 
 ### WVS Codebook:
 `C:\Users\mrrai\OneDrive\Рабочий стол\CEU\DAwAI\WVS_codebook.pdf`
+
+## Research Question
+**How do perceptions of corruption influence political participation across different countries and cultural contexts within the World Values Survey Wave 7 data?**
+
+This study aims to explore the relationship between individuals' perceptions of corruption in their respective countries and their levels of political engagement. By analyzing responses from the World Values Survey (Wave 7: 2017-2022), we can assess whether corruption perception discourages or motivates political participation.
+
+## 3. Key Variables
+Below are the key variables selected for this analysis:
+
+1. **Q112 - Perceived Corruption in Government**  
+   - Respondents' perception of how widespread corruption is within their country's government.
+
+2. **Q199 - Voting in National Elections**  
+   - Whether the respondent participated in the most recent national election.
+
+3. **Q234 - Participation in Lawful Demonstrations**  
+   - Captures whether the respondent has engaged in peaceful protests or demonstrations.
+
+4. **Q71 - Confidence in the National Government**  
+   - Measures the level of trust respondents have in their government.
+
+5. **Q70 - Confidence in the Justice System**  
+   - Reflects trust in the fairness and effectiveness of the legal system.
+
+6. **Q106 - Economic Situation of the Country**  
+   - Respondents' assessment of the current national economic conditions.
+
+7. **Q260 - Education Level**  
+   - The highest level of education completed by the respondent, used as a control variable.
+
+8. **Q279 - Age**  
+   - The age of the respondent, included as a demographic control.
+
+These variables allow for an in-depth analysis of how trust in institutions, economic perceptions, and demographic factors interact with political engagement in the context of perceived corruption.
+
